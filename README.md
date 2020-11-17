@@ -10,6 +10,9 @@ a relationship between the physical dimensions of the bottle and the features of
 Directory:
 
 wav-spectrum-plot.py : Reads audio data from .wav file, takes an FFT of the data, and plots the resulting frequency spectrum
+
 samples              : Contains sample .wav files
+
     --> instruments  : Samples from musical instruments (from https://www.ee.columbia.edu/~dpwe/sounds/instruments/)
+    
     --> recordings   : Audio recordings taken on my Moto G8-Power Android device
