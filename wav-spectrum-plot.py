@@ -25,7 +25,6 @@ else:# fft even
 #Plotting the Result
 plt.figure()
 freqAxis = np.arange(0,int(np.ceil((n+1)/2.0)), 1.0) * (fs / n)
-print(len(freqAxis/1000.0), len(10*np.log10(MagFreq)))
 plt.plot(freqAxis/1000.0, 10*np.log10(MagFreq)) #Power spectrum
 plt.xlabel('Frequency (kHz)')
 plt.ylabel('Power spectrum (dB)')
