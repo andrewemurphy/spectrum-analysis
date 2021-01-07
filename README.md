@@ -16,3 +16,5 @@ samples              : Contains sample .wav files
     --> instruments  : Samples from musical instruments (from https://www.ee.columbia.edu/~dpwe/sounds/instruments/)
     
     --> recordings   : Audio recordings taken on my Moto G8-Power Android device
+    
+wav-peak-fit.py:Reads audio data from .wav file, takes an FFT of the data, and fits spectrum peaks as Lorentz/Cauchy Distributions based on user-inputted guesses
